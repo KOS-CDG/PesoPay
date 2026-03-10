@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PesoPay - The All-in-One Money App for Filipinos. Send, save, and grow your money safely.">
+    <title>PesoPay | Modern E-Wallet App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="PesoPay homepage">
+                <img src="assets/logo.png" alt="PesoPay Logo" height="40">
+                <span>PesoPay</span>
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="#products">Products</a>
+                <a href="#promos">Promos</a>
+                <a href="#support">Support</a>
+                <a href="#business">Business</a>
+
+                <a href="auth.html?mode=login" target="_blank" rel="noopener noreferrer" class="btn btn-secondary mobile-only">
+                    Log In
+                </a>
+                <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="btn btn-primary mobile-only">
+                    Sign Up
+                </a>
+            </nav>
+
+            <div class="desktop-auth-actions">
+                <a href="auth.html?mode=login" target="_blank" rel="noopener noreferrer" class="btn btn-secondary desktop-only">
+                    Log In
+                </a>
+                <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="btn btn-primary desktop-only">
+                    Sign Up
+                </a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-orb orb-1"></div>
+            <div class="hero-orb orb-2"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content hero-glass fade-in">
+                    <div class="trust-badge">🔒 99.9% Secure & BSP Licensed</div>
+                    <h1>All-in-One Money App for Filipinos</h1>
+                    <p>Manage your wallet, earn high-interest savings, trade crypto, and unlock personal credit—all in one seamless app.</p>
+
+                    <div class="hero-ctas">
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large primary-cta">
+                            Sign Up
+                        </a>
+                        <a href="auth.html?mode=login" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large ghost-cta">
+                            Log In
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image fade-in">
+                    <img src="assets/Interface.png" alt="PesoPay App Interface" class="mockup">
+                    <div class="floating-badge badge-1">⚡ Fast GCash Transfers</div>
+                    <div class="floating-badge badge-2">📈 Up to 6% p.a. Savings</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="features bg-light">
+            <div class="container">
+                <h2 class="section-title fade-in">Everything you need to grow</h2>
+
+                <div class="feature-grid">
+                    <div class="feature-card fade-in">
+                        <div class="icon">💸</div>
+                        <h3>Wallet</h3>
+                        <p>Send and receive money instantly. Pay bills with zero hassle.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Explore Wallet →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">🏦</div>
+                        <h3>Savings</h3>
+                        <p>Earn daily interest with our high-yield digital savings account.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Start Saving →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">₿</div>
+                        <h3>Crypto</h3>
+                        <p>Buy, sell, and hold popular cryptocurrencies securely.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Trade Crypto →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">💳</div>
+                        <h3>Credit</h3>
+                        <p>Access personal loans and credit lines in just a few taps.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Get Credit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container stats-container">
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="5000000">0</h3>
+                    <p>Active Users</p>
+                </div>
+
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="15000000">0</h3>
+                    <p>Monthly Transactions</p>
+                </div>
+
+                <div class="stat-item fade-in">
+                    <h3 class="counter" data-target="120000">0</h3>
+                    <p>Partner Merchants</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works bg-light">
+            <div class="container">
+                <h2 class="section-title fade-in">Start in 3 easy steps</h2>
+
+                <div class="steps-container">
+                    <div class="step fade-in">
+                        <div class="step-number">1</div>
+                        <img src="assets/step-1.png" alt="Download App">
+                        <h4>Create your account</h4>
+                        <p>Open the PesoPay sign-up page and register using email, Google, or Facebook.</p>
+                    </div>
+
+                    <div class="step fade-in">
+                        <div class="step-number">2</div>
+                        <img src="assets/step-2.png" alt="Verify ID">
+                        <h4>Enter personal details</h4>
+                        <p>Fill in your information and complete the account setup for secure onboarding.</p>
+                    </div>
+
+                    <div class="step fade-in">
+                        <div class="step-number">3</div>
+                        <img src="assets/step-3.png" alt="Start Using">
+                        <h4>Start using PesoPay</h4>
+                        <p>Log in to your account and begin using wallet, savings, and other financial services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promos" class="promos">
+            <div class="container">
+                <h2 class="section-title fade-in">Exclusive Deals & Partners</h2>
+                <div class="carousel-container fade-in">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide">
+                            <img src="assets/Promo-1.png" alt="50% Off Food">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/Promo-2.png" alt="Free Cash-In">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/Promo-3.png" alt="Cashback on Bills">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="security bg-navy text-white">
+            <div class="container security-container">
+                <div class="security-content fade-in">
+                    <h2>Bank-grade Security</h2>
+                    <p>Your money is safe with us. We employ the highest levels of encryption and fraud detection.</p>
+
+                    <div class="security-badges">
+                        <span>🛡️ 256-bit Encryption</span>
+                        <span>📱 Biometric Login</span>
+                        <span>🔐 2FA Authentication</span>
+                    </div>
+
+                    <p class="bsp-disclaimer">PesoPay is regulated by the Bangko Sentral ng Pilipinas (BSP).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="business" class="features bg-light">
+            <div class="container">
+                <h2 class="section-title fade-in">For individuals and business</h2>
+
+                <div class="feature-grid">
+                    <div class="feature-card fade-in">
+                        <div class="icon">🧾</div>
+                        <h3>Bill Payments</h3>
+                        <p>Pay utilities, subscriptions, and recurring bills in a few taps.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Get Started →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">🛍️</div>
+                        <h3>Merchant Tools</h3>
+                        <p>Accept payments faster and manage customer transactions more efficiently.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Grow Business →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">📊</div>
+                        <h3>Insights</h3>
+                        <p>Track account activity and monitor spending or collections with ease.</p>
+                        <a href="auth.html?mode=login" target="_blank" rel="noopener noreferrer" class="arrow-link">View Account →</a>
+                    </div>
+
+                    <div class="feature-card fade-in">
+                        <div class="icon">🌐</div>
+                        <h3>Digital Access</h3>
+                        <p>Use one account experience across personal finance and digital services.</p>
+                        <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer" class="arrow-link">Create Account →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="faq bg-light">
+            <div class="container">
+                <h2 class="section-title fade-in">Frequently Asked Questions</h2>
+
+                <div class="faq-container fade-in">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Are there fees for cashing in?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Cashing in via linked bank accounts is free. Over-the-counter methods may charge a nominal 1% fee.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            What are my account limits?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Fully verified users enjoy up to PHP 500,000 monthly transaction limits.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How long does verification take?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Our automated system verifies 90% of IDs instantly, usually under 5 minutes.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Is the savings interest guaranteed?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, your deposits are insured by PDIC up to PHP 500,000 per depositor.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I contact customer support?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>You can reach us 24/7 via the in-app chat, or email <a href="mailto:support@pesopay.com">support@pesopay.com</a>.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            How do I create a personal account?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Click Sign Up to open the registration page in a new tab, then enter your personal details or use a faster sign-up option.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            Can registered users log in directly?
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes. Existing users can open the Log In page directly and sign in using their registered email or mobile number.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-navy text-white">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo text-white">
+                        <img src="assets/logo.png" alt="PesoPay Logo" height="40" style="filter: brightness(0) invert(1);">
+                        <span style="color: white;">PesoPay</span>
+                    </a>
+
+                    <p>The all-in-one money app for Filipinos.</p>
+
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="email-input" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+
+                    <div id="form-message" class="form-message"></div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Account</h4>
+                    <a href="auth.html?mode=login" target="_blank" rel="noopener noreferrer">Log In</a>
+                    <a href="auth.html?mode=signup" target="_blank" rel="noopener noreferrer">Create Account</a>
+                    <a href="#products">Products</a>
+                    <a href="#business">Business</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#support">Help Center</a>
+                    <a href="#">Security</a>
+                    <a href="#">Fees & Limits</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+
+                    <div class="app-badges">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 PesoPay Inc. All rights reserved. Regulated by the BSP.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
